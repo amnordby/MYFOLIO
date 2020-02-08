@@ -34,10 +34,10 @@ header{
     background-attachment: fixed;
     background-image: url(../img/falls.jpg);
     background-attachment: fixed;
-    background-position: 100% 25%;
+    background-position: 100% 5%;
     background-repeat: none;
     background-size: cover;
-    height: 800px;
+    height: 700px;
 }
 header .head-text{
     color: #fff;
@@ -45,7 +45,7 @@ header .head-text{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 600px;
 }
 header div h2{
     font-size: 40px;
@@ -67,7 +67,7 @@ header div .knowmore a{
     text-decoration: none;
 }
 .info{
-    height: 800px;
+    height: 400px;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -79,17 +79,24 @@ header div .knowmore a{
     text-transform: uppercase;
     color: #7A0019;
 }
+.info p{
+    padding: 40px;
+    text-align: center;
+}
 .info .about-boxes{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: row wrap; 
 }
 .about-boxes div{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 40px;
+    padding: 20px;
+}
+.about-boxes div p{
+    text-align: center;
 }
 .info div i {
     color: #7A0019;
@@ -97,5 +104,68 @@ header div .knowmore a{
 }
 .info div h2{
     color: black;
-    font-size: 25px;
+    font-size: 22px;
+    padding: 15px;
+}
+.about-boxes div{
+    border-right: 1px solid black;
+}
+.about-boxes div:last-child{
+    border-right: none;
+}
+.info div p{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 40px;
+}
+.infohead{
+    padding-bottom: 20px;
+}
+.service-section{
+    display: flex;
+    height: 400px;
+    background-color: #d1babf;
+    justify-content: left;
+}
+.service-photo{
+    display: flex;
+    flex:1; 
+    background-image: url(../img/arch.jpg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    opacity: .3;
+}
+.services{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+.services img{
+    margin-left:0;
+    margin-right: auto;
+}
+.services-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services-boxes div{
+    width: 40%;
+    padding: 30px 10px;
+    height: 100px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact h2{
+    padding-top: 100px;
+}
+.contact p{
+    padding-bottom: 100px;
 }
