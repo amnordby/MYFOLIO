@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Austin Nordby">
-    <meta name="description" content="a website replication week1advance">
+    <meta name="description" content="a website replication week2medium">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <script src="https://use.fontawesome.com/9a77ea3aef.js"></script>
     <title>Week2Medium</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <nav>
-        <a href="#" class="logo">MYFOLIO</a>
+        <a href="#" class="logo">MY<span>FOLIO</span></a>
         <ul>
             <li><a href="#">home</a></li>
-            <li><a href="#">about me</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">contact me</a></li>
+            <li><a href="#info">about me</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">contact me</a></li>
         </ul>
     </nav>
     <header>
@@ -35,7 +36,7 @@
     <div class="info" id="info">
         <h2 class="infohead">About Me</h2>
         <img src="img/sectionbreak.png" alt="section break">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum placeat dolorum facilis expedita voluptates fugiat quam et similique incidunt nesciunt minus <span> obcaecati magnam, dolor repellat.</span> Quis atque odio obcaecati?</p>
+        <p class="info-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum placeat dolorum facilis expedita voluptates fugiat quam et similique incidunt nesciunt minus <span> obcaecati magnam, dolor repellat.</span> Quis atque odio obcaecati?</p>
         <div class="about-boxes">
             <div class="bulb">
                 <i class="fa fa-lightbulb-o"></i>
@@ -59,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="service-section">
+    <div class="service-section" id="services">
         <div class="services" id="services">
             <h2>Services</h2>
             <img src="img/sectionbreak.png" alt="section break">
@@ -67,22 +68,22 @@
             <div class="services-boxes">
                 <div class="anchor">
                     <i class="fa fa-anchor"></i>
-                    <h2>Title</h2>
+                    <h3>Title</h3>
                     <p>Here is a little blurb about this specific section</p>
                 </div>
                 <div class="atsymbol">
                     <i class="fa fa-at"></i>
-                    <h2>Title</h2>
+                    <h3>Title</h3>
                     <p>Here is a little blurb about this specific section</p>
                 </div>
                 <div class="knight">
                     <i class="fa fa-bars"></i>
-                    <h2>Title</h2>
+                    <h3>Title</h3>
                     <p>Here is a little blurb about this specific section</p>
                 </div>
                 <div class="cookie">
                     <i class="fa fa-beer"></i>
-                    <h2>Title</h2>
+                    <h3>Title</h3>
                     <p>Here is a little blurb about this specific section</p>
                 </div>
             </div>
@@ -90,10 +91,23 @@
         <div class="service-photo">
         </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <h2>Contact Me</h2>
         <img src="img/sectionbreak.png" alt="section break">
-        <p>Here is a phrase that appears to be some what long to show the centering of text in the contact section. </p>
+        <p>Here is a phrase that appears to be some what long to show the centering of text in the contact section. To make a long sentance you need to add words to a line and then just keep going until there are finally enought words to make it appear that there is a good amount of text in the section. </p>
+        <form action="">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+            <br>
+            <button>Submit</button>
+        </form>
     </div>
+    <footer>
+        <p>&copy; MYFOLIO 2020</p>
+    </footer>
 </body>
 </html>
