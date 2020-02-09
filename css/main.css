@@ -74,7 +74,7 @@ header div .knowmore a{
     text-decoration: none;
 }
 .info{
-    padding: 40px;
+    padding: 80px 40px 40px 40px;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -160,7 +160,7 @@ header div .knowmore a{
     display: flex;
     flex:1;
     flex-direction: column;
-    padding: 40px 30px 40px 100px;
+    padding: 80px 30px 40px 100px;
     height: auto;
     color: #4f4b4c;
 }
